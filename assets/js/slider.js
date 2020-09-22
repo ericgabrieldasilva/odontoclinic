@@ -53,7 +53,7 @@ $(function(){
 	}
 
 	//Slider galery
-
+	/*
 	$('.galery').slick({
 		centerMode: true,
 		slidesToShow: 6,
@@ -97,5 +97,6 @@ $(function(){
 
 		]
 	});
+	*/
 
 });

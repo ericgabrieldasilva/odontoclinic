@@ -9,7 +9,7 @@ $(function(){
 		var positionScroll = $(window).scrollTop();
 		if (positionScroll >= (positionHeader + heightHeader)){
 			header.addClass('header-fixed');
-			$('nav.menu-mobile ul').css('top', '60px');
+			$('nav.menu-mobile ul').css('top', '50px');
 			$('div.ghost').css('height', heightHeader+'px');
 		}else{
 			header.removeClass('header-fixed');
@@ -25,7 +25,7 @@ $(function(){
 		var y = $(aid).offset().top - heightHeader;
 		$('html, body').animate({
 			scrollTop: y
-		}, 800);
+		}, 500);
 	});
 
 
